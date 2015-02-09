@@ -16,7 +16,7 @@
 (setq erc-log-channels-directory "~/.erc/logs/"
 erc-save-buffer-on-part t
 erc-hide-list nil ; '("JOIN" "PART" "QUIT")
-jonebird-irc-creds (netrc-machine (netrc-parse "~/.netrc.gpg") "ircserver.com")
+my-irc-creds (netrc-machine (netrc-parse "~/.netrc.gpg") "ircserver.com")
 erc-server-flood-margin 1000
 )
 
