@@ -28,5 +28,5 @@ erc-server-flood-margin 1000
 (defun irc-connect ()
 (interactive)
 (erc-tls :server "ircserver.com" :port 6667 :full-name (netrc-get jonebird-irc-creds "login")
-:password (netrc-get jonebird-irc-creds "password") :nick "tim")
+:password (netrc-get my-irc-creds "password") :nick "tim")
 )
